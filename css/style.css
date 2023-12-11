@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Boogaloo';
+}
+
+img {
+    width: 200px;
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#one {
+    color: blue;
+}
+
+#two {
+    color: red;
+}
+
+#three {
+    color: yellowgreen;
+}
+
+#four {
+    color: green;
+}
+
+#five {
+    color: brown;
+}
